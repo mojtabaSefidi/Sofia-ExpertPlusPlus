@@ -110,7 +110,7 @@ To get your simulation IDs, connect to your local SQL Server instance and run th
 SELECT  Id,
 	KnowledgeShareStrategyType, 
 	StartDateTime,
-	EndDateTime
+	EndDateTime,
 	PullRequestReviewerSelectionStrategy,
 	SimulationType 
 FROM [Roslyn_Defect].[dbo].[LossSimulations]
